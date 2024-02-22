@@ -49,4 +49,7 @@ minikube dashboard
 ```
 
 ### Notes:
-The local flask-kubernetes docker image must exists inside minikube. 
+- The local flask-kubernetes docker image must be built and exists inside minikube
+- The steps here does not need Virtualbox
+- In a Windows 11 with no Docker, then Kubernetes setup will need Virtualbox (VM Linux docker runs the minikube app container)
+- In a Windows 11 with Docker Desktop, then Kubernetes setup will not need Virtualbox (Windows Docker runs the minikube app container)
